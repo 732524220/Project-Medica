@@ -175,3 +175,9 @@
 - 本轮实际构建缓存位于 `E:/Codex/Codex_program/2026-10-22/new-chat/work/gradle-home`；使用 JDK 26 启动 Gradle，JDK 21 启动测试游戏。用户目录下另一份 Gradle 缓存缺少当前 Loom 插件。
 - 原项目没有 Git 仓库，已初始化 `main` 分支。补充中文 README 与本地配置忽略规则；提交范围包含源码、资源、测试和文档，排除游戏存档、构建产物与 IDE 缓存。
 - GitHub 远程地址尚未提供，已向用户询问目标仓库网址。当前只准备本地提交，不能将此状态记为已上传；获得目标地址后再推送并核验远程提交。
+
+## GitHub 远程已连接，上传等待登录（2026-10-29）
+
+- 用户提供目标仓库 `https://github.com/732524220/Project-Medica.git`，已配置为本地 `origin`。使用 OpenSSL 后 `git ls-remote` 成功，远程当前没有分支。
+- 首次本地提交为 `3e44c44`，包含项目源码、蛇杖资源、文档与构建配置。随后尝试 `push -u origin main`，因 Git Credential Manager 无法访问 Windows 凭据存储而失败，未上传。
+- 尝试官方 GitHub 设备登录也因当前运行环境的 Windows 安全凭据错误失败，没有取得授权，也未创建明文凭据。需要用户在 GitHub Desktop 添加现有项目目录后发布分支，或在其正常终端完成登录推送，再核验远程。

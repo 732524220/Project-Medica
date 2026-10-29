@@ -16,5 +16,9 @@
   "advancements.project-medica.root.title": "医学之始",
   "advancements.project-medica.root.description": "获得一株薄荷，踏上医药之路",
   "advancements.project-medica.mint_tea.title": "清凉一夏",
-  "advancements.project-medica.mint_tea.description": "喝下一瓶薄荷茶，享受片刻清凉"
+  "advancements.project-medica.mint_tea.description": "喝下一瓶薄荷茶，享受片刻清凉",
+  "tooltip.project-medica.mint.planting": "可种植于耕地",
+  "tooltip.project-medica.mint.brewing": "两个薄荷可在加热的满水炼药锅中冲泡四瓶茶",
+  "tooltip.project-medica.mint_tea.drinking": "饮用后恢复2点饥饿值",
+  "tooltip.project-medica.mint_tea.container": "饮用后返还玻璃瓶"
 }

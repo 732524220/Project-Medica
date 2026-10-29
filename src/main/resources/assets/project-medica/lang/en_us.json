@@ -16,5 +16,9 @@
   "advancements.project-medica.root.title": "The Beginning of Medicine",
   "advancements.project-medica.root.description": "Obtain a mint and begin your path in medicine",
   "advancements.project-medica.mint_tea.title": "A Cool Summer",
-  "advancements.project-medica.mint_tea.description": "Drink a bottle of mint tea and enjoy a moment of cool refreshment"
+  "advancements.project-medica.mint_tea.description": "Drink a bottle of mint tea and enjoy a moment of cool refreshment",
+  "tooltip.project-medica.mint.planting": "Plantable on farmland",
+  "tooltip.project-medica.mint.brewing": "Two mint can brew four bottles of tea in a heated cauldron full of water",
+  "tooltip.project-medica.mint_tea.drinking": "Restores 2 hunger points when consumed",
+  "tooltip.project-medica.mint_tea.container": "Returns a glass bottle after drinking"
 }

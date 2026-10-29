@@ -1,0 +1,20 @@
+{
+  "item.project-medica.mint": "薄荷",
+  "block.project-medica.wild_mint": "野生薄荷",
+  "block.project-medica.mint_crop": "薄荷植株",
+  "item.project-medica.mint_tea": "薄荷茶",
+  "block.project-medica.mint_tea_cauldron": "薄荷茶锅",
+  "message.project-medica.tea.need_water": "请先把炼药锅装满水",
+  "message.project-medica.tea.need_heat": "下方没有热源，请放置篝火或岩浆块",
+  "message.project-medica.tea.need_mint": "请手持至少 %s 个薄荷再投入",
+  "message.project-medica.tea.started": "开始冲泡薄荷茶，约需加热 %s 秒；可以先去做别的事",
+  "message.project-medica.tea.brewing": "薄荷茶正在冲泡，还需加热约 %s 秒",
+  "message.project-medica.tea.paused": "缺少热源，冲泡已暂停；恢复热源后还需约 %s 秒",
+  "message.project-medica.tea.finished": "薄荷茶泡好了！可以用玻璃瓶盛取",
+  "message.project-medica.tea.ready": "薄荷茶已泡好，剩余 %s 瓶",
+  "message.project-medica.tea.no_ingredients": "薄荷茶还没有泡好；请用薄荷右键满水的原版炼药锅开始冲泡",
+  "advancements.project-medica.root.title": "医学之始",
+  "advancements.project-medica.root.description": "获得一株薄荷，踏上医药之路",
+  "advancements.project-medica.mint_tea.title": "清凉一夏",
+  "advancements.project-medica.mint_tea.description": "喝下一瓶薄荷茶，享受片刻清凉"
+}

@@ -1,0 +1,22 @@
+{
+  "feature": "project-medica:wild_mint_patch",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 16
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "project-medica:biome_edge"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "servings=1": {
+      "model": "project-medica:block/mint_tea_cauldron_level1"
+    },
+    "servings=2": {
+      "model": "project-medica:block/mint_tea_cauldron_level2"
+    },
+    "servings=3": {
+      "model": "project-medica:block/mint_tea_cauldron_level3"
+    },
+    "servings=4": {
+      "model": "project-medica:block/mint_tea_cauldron_level4"
+    }
+  }
+}

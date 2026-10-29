@@ -1,0 +1,20 @@
+{
+  "item.project-medica.mint": "Mint",
+  "item.project-medica.mint_tea": "Mint Tea",
+  "block.project-medica.wild_mint": "Wild Mint",
+  "block.project-medica.mint_crop": "Mint Crop",
+  "block.project-medica.mint_tea_cauldron": "Mint Tea Cauldron",
+  "message.project-medica.tea.need_water": "Fill the cauldron with water first",
+  "message.project-medica.tea.need_heat": "No heat source below: place a lit campfire or magma block directly underneath",
+  "message.project-medica.tea.need_mint": "Hold at least %s mint to start brewing",
+  "message.project-medica.tea.started": "Brewing mint tea: about %s seconds of heating. You can come back later",
+  "message.project-medica.tea.brewing": "Mint tea is brewing: about %s seconds of heating remaining",
+  "message.project-medica.tea.paused": "Brewing paused: restore the heat source. About %s seconds remaining",
+  "message.project-medica.tea.finished": "Mint tea is ready! Collect it with glass bottles",
+  "message.project-medica.tea.ready": "Mint tea is ready: %s bottles remaining",
+  "message.project-medica.tea.no_ingredients": "This tea is not ready. Start by using mint on a full water cauldron",
+  "advancements.project-medica.root.title": "The Beginning of Medicine",
+  "advancements.project-medica.root.description": "Obtain a mint and begin your path in medicine",
+  "advancements.project-medica.mint_tea.title": "A Cool Summer",
+  "advancements.project-medica.mint_tea.description": "Drink a bottle of mint tea and enjoy a moment of cool refreshment"
+}

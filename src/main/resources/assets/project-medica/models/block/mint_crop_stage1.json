@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "project-medica:block/mint_crop_stage1"
+  }
+}

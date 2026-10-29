@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "project-medica-test",
+  "version": "1.0.0",
+  "name": "Project Medica Game Tests",
+  "environment": "server",
+  "entrypoints": {
+    "fabric-gametest": ["com.example.medica.MintTeaBrewingTests"]
+  },
+  "depends": {
+    "project-medica": "*",
+    "fabric-gametest-api-v1": "*"
+  }
+}

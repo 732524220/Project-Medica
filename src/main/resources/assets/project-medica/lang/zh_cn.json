@@ -20,5 +20,17 @@
   "tooltip.project-medica.mint.planting": "可种植于耕地",
   "tooltip.project-medica.mint.brewing": "两个薄荷可在加热的满水炼药锅中冲泡四瓶茶",
   "tooltip.project-medica.mint_tea.drinking": "饮用后恢复2点饥饿值",
-  "tooltip.project-medica.mint_tea.container": "饮用后返还玻璃瓶"
+  "tooltip.project-medica.mint_tea.container": "饮用后返还玻璃瓶",
+  "effect.project-medica.bleeding": "流血",
+  "death.attack.project-medica.bleeding": "%1$s 失血过多",
+  "death.attack.project-medica.bleeding.player": "%1$s 在与 %2$s 的战斗后失血过多",
+  "item.project-medica.bandage": "普通绷带",
+  "item.project-medica.plant_fiber": "植物纤维",
+  "item.project-medica.simple_rope": "简易麻绳",
+  "message.project-medica.pressure_treatment.active": "正在按压止血",
+  "message.project-medica.pressure_treatment.interrupted": "按压止血已中断，请保持静止并继续按住右键",
+  "message.project-medica.pressure_treatment.respite": "按压完成，获得空窗期",
+  "effect.project-medica.respite": "空窗期",
+  "advancements.project-medica.respite.title": "迫在眉睫",
+  "advancements.project-medica.respite.description": "在流血时通过按压止血获得短暂喘息"
 }

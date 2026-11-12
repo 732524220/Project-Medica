@@ -1,0 +1,33 @@
+{
+  "parent": "project-medica:root",
+  "display": {
+    "icon": {
+      "id": "project-medica:bandage"
+    },
+    "title": {
+      "translate": "advancements.project-medica.respite.title"
+    },
+    "description": {
+      "translate": "advancements.project-medica.respite.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_respite": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "project-medica:respite": {}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_respite"
+    ]
+  ]
+}

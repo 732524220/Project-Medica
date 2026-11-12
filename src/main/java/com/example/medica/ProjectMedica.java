@@ -2,7 +2,12 @@ package com.example.medica;
 
 import com.example.medica.block.ModBlocks;
 import com.example.medica.block.entity.ModBlockEntities;
+import com.example.medica.effect.ModEffects;
+import com.example.medica.firstaid.InjuryHandler;
+import com.example.medica.firstaid.PressureTreatment;
 import com.example.medica.item.ModItems;
+import com.example.medica.loot.ModLootTableModifiers; // [新增]
+import com.example.medica.network.ModNetworking;
 import com.example.medica.worldgen.ModPlacementModifiers;
 import com.example.medica.worldgen.ModWorldGeneration;
 
@@ -23,6 +28,11 @@ public class ProjectMedica implements ModInitializer {
 		ModBlocks.initialize();
 		ModBlockEntities.initialize();
 		ModItems.initialize();
+		ModLootTableModifiers.initialize(); // [新增] 初始化掉落表修改器
+		ModEffects.initialize();
+		InjuryHandler.initialize();
+		PressureTreatment.initialize();
+		ModNetworking.initialize();
 		ModPlacementModifiers.initialize();
 		ModWorldGeneration.initialize();
 		LOGGER.info("但愿世间人无病，何妨架上药生尘");

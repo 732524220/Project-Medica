@@ -50,9 +50,54 @@ public class ModItems {
                     .usingConvertsTo(Items.GLASS_BOTTLE))
     );
 
+    // ===== 新增：绷带 =====
+    public static final ResourceKey<Item> BANDAGE_KEY =
+            ResourceKey.create(
+                    Registries.ITEM,
+                    ProjectMedica.id("bandage")
+            );
+
+    public static final Item BANDAGE = Registry.register(
+            BuiltInRegistries.ITEM,
+            BANDAGE_KEY,
+            new BandageItem(
+                    new Item.Properties()
+                            .setId(BANDAGE_KEY)
+                            .stacksTo(16)
+            )
+    );
+
+    // ===== 新增：植物纤维 =====
+    public static final ResourceLocation PLANT_FIBER_ID = ProjectMedica.id("plant_fiber");
+
+    public static final ResourceKey<Item> PLANT_FIBER_KEY =
+            ResourceKey.create(Registries.ITEM, PLANT_FIBER_ID);
+
+    public static final Item PLANT_FIBER = Registry.register(
+            BuiltInRegistries.ITEM,
+            PLANT_FIBER_KEY,
+            new Item(new Item.Properties().setId(PLANT_FIBER_KEY))
+    );
+
+    // ===== 新增：简易麻绳 =====
+    public static final ResourceLocation SIMPLE_ROPE_ID = ProjectMedica.id("simple_rope");
+
+    public static final ResourceKey<Item> SIMPLE_ROPE_KEY =
+            ResourceKey.create(Registries.ITEM, SIMPLE_ROPE_ID);
+
+    public static final Item SIMPLE_ROPE = Registry.register(
+            BuiltInRegistries.ITEM,
+            SIMPLE_ROPE_KEY,
+            new Item(new Item.Properties().setId(SIMPLE_ROPE_KEY))
+    );
+
     public static void initialize() {
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS)
-                .register(entries -> entries.accept(MINT));
+                .register(entries -> {
+                    entries.accept(MINT);
+                    entries.accept(PLANT_FIBER);
+                    entries.accept(SIMPLE_ROPE);
+                });
         ProjectMedica.LOGGER.info("正在注册物品");
     }
 }

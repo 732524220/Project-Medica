@@ -11,6 +11,7 @@ import net.minecraft.network.chat.Component;
 public class ProjectMedicaClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
+		PressureTreatmentClient.initialize();
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WILD_MINT, RenderType.cutout());
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MINT_CROP, RenderType.cutout());
 

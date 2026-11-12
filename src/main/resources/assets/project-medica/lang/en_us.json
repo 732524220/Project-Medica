@@ -20,5 +20,17 @@
   "tooltip.project-medica.mint.planting": "Plantable on farmland",
   "tooltip.project-medica.mint.brewing": "Two mint can brew four bottles of tea in a heated cauldron full of water",
   "tooltip.project-medica.mint_tea.drinking": "Restores 2 hunger points when consumed",
-  "tooltip.project-medica.mint_tea.container": "Returns a glass bottle after drinking"
+  "tooltip.project-medica.mint_tea.container": "Returns a glass bottle after drinking",
+  "effect.project-medica.bleeding": "Bleeding",
+  "death.attack.project-medica.bleeding": "%1$s bled to death",
+  "death.attack.project-medica.bleeding.player": "%1$s bled to death after fighting %2$s",
+  "item.project-medica.bandage": "Bandage",
+  "item.project-medica.plant_fiber": "Plant Fiber",
+  "item.project-medica.simple_rope": "Simple Rope",
+  "message.project-medica.pressure_treatment.active": "Applying pressure to stop the bleeding",
+  "message.project-medica.pressure_treatment.interrupted": "Pressure treatment interrupted. Stay still and keep holding use to try again",
+  "message.project-medica.pressure_treatment.respite": "Pressure applied: you have a brief respite",
+  "effect.project-medica.respite": "Respite",
+  "advancements.project-medica.respite.title": "A Narrow Escape",
+  "advancements.project-medica.respite.description": "Gain a brief respite from bleeding through pressure treatment"
 }
